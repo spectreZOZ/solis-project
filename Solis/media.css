@@ -1,0 +1,326 @@
+/* ********************* */
+/* BELOW 1200 (SMALLER DESKTOPS) */
+/* ********************* */
+
+@media (max-width: 75em) {
+  .first-section {
+    padding: 0 6.4rem;
+  }
+
+  .hero-img {
+    max-width: 70rem;
+  }
+}
+
+/* ********************* */
+/* BELOW 800 (TABLETS) */
+/* ********************* */
+
+@media (max-width: 50em) {
+  .first-section {
+    padding: 0;
+  }
+
+  .hero-description {
+    padding: 8rem 5rem;
+  }
+
+  .prime-heading {
+    font-size: 4rem;
+  }
+
+  .hero-img {
+    max-width: 50rem;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .circle-1 {
+    width: 12rem;
+    height: 12rem;
+    right: -3%;
+    bottom: 60%;
+  }
+
+  .circle-2 {
+    width: 10rem;
+    height: 10rem;
+    bottom: 14%;
+    left: -16%;
+  }
+
+  .circle-3 {
+    width: 8rem;
+    height: 8rem;
+    right: 15%;
+    bottom: 10%;
+  }
+  .circle-4 {
+    width: 3rem;
+    height: 3rem;
+    left: 17%;
+    bottom: 80%;
+  }
+
+  .section-features {
+    padding: 0;
+  }
+
+  .features-description {
+    font-size: 1.6rem;
+  }
+
+  .logos-1 {
+    width: 13rem;
+  }
+
+  .second-heading {
+    line-height: 1.2;
+    font-size: 2.3rem;
+  }
+
+  .text-box1 {
+    padding: 4.8rem;
+  }
+  .text-box2 {
+    padding: 4.8rem;
+  }
+
+  .text-grid {
+    gap: 1.8rem;
+  }
+
+  .third-section {
+    padding: 6rem;
+  }
+
+  .third-heading-section {
+    font-size: 3.8rem;
+  }
+
+  .desc {
+    font-size: 1.6rem;
+  }
+
+  .third-heading-1 {
+    font-size: 1.8rem;
+  }
+
+  .spec-desc {
+    font-size: 1.1rem;
+  }
+
+  .input-boxes {
+    width: 100%;
+    height: 100%;
+  }
+
+  .input-section {
+    padding-bottom: 5.5rem;
+  }
+
+  .logo-feature {
+    font-size: 3.2rem;
+  }
+
+  .specifaties {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .prime-heading-4 {
+    font-size: 4rem;
+  }
+
+  .forth-desc {
+    font-size: 1.2rem;
+  }
+
+  .forth-section {
+    padding: 10rem 0;
+  }
+
+  .all-prices {
+    grid-template-columns: 30.8rem 30rem;
+  }
+
+  .forth-desc {
+    font-size: 1.8rem;
+  }
+
+  .list {
+    font-size: 1.8rem;
+  }
+
+  .period-2 {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .period {
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .third-heading-2 {
+    margin-bottom: 3.2rem;
+  }
+  .third-heading {
+    margin-bottom: 3.2rem;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+
+  .fa-brands {
+    font-size: 1.4rem;
+  }
+}
+
+/* ********************* */
+/* BELOW 496 (PHONES) */
+/* ********************* */
+
+@media (max-width: 31em) {
+  .header {
+    gap: 2.4rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 1.4rem;
+  }
+
+  .btn-1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.4rem 1.8rem;
+    display: flex;
+    text-decoration: none;
+    border-radius: 2rem;
+    color: #fff;
+    background-image: linear-gradient(to left top, yellow, red);
+    transition: all 0.3s;
+    box-shadow: 0 1rem 3.2rem 0 rgba(255, 166, 0, 0.2);
+  }
+
+  .first-section {
+    padding: 2.4rem;
+    padding-top: 0;
+  }
+
+  .first-section-box {
+    display: grid;
+    grid-template-rows: 0.8fr 1fr;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
+    row-gap: 10px;
+  }
+
+  .prime-heading {
+    font-size: 3.2rem;
+    line-height: 1.1;
+  }
+
+  .hero-description {
+    padding: 0 2.5rem;
+    padding-bottom: 0;
+    padding-left: 8rem;
+    justify-content: center;
+    height: 30rem;
+    padding-top: 9.6rem;
+    gap: 1.6rem;
+  }
+
+  .circle-1 {
+    width: 11rem;
+    height: 11rem;
+    right: 0;
+    bottom: 60%;
+  }
+
+  .circle-2 {
+    width: 9rem;
+    height: 9rem;
+    bottom: 14%;
+    left: -2%;
+  }
+
+  .circle-3 {
+    width: 7rem;
+    height: 7rem;
+    right: 18%;
+    bottom: 10%;
+  }
+  .circle-4 {
+    width: 2rem;
+    height: 2rem;
+    left: 22%;
+    bottom: 80%;
+  }
+
+  .hero-img {
+    max-width: 49.6rem;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .heading-features {
+    font-size: 1.6rem;
+    padding: 0 3.2rem;
+  }
+
+  .logos img {
+    width: 23%;
+  }
+
+  .logos-1 {
+    width: 10rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .specifaties {
+    grid-template-columns: 1fr;
+  }
+
+  .all-prices {
+    grid-template-columns: 1fr;
+  }
+
+  .section-features {
+    padding: 0;
+  }
+
+  .third-section {
+    padding: 6rem 0;
+  }
+
+  .third-heading-section {
+    padding: 0;
+  }
+
+  .input-section {
+    padding: 0;
+    padding-bottom: 4.8rem;
+  }
+
+  .third-heading-1 {
+    font-size: 2.4rem;
+  }
+
+  .spec-desc {
+    font-size: 1.8rem;
+  }
+
+  .forth-section {
+    padding: 9.6rem 0;
+    padding-bottom: 5.2rem;
+  }
+}
